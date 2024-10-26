@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Individual
+data
+/data/*
+*.pdf
+
 # Distribution / packaging
 .Python
 build/
@@ -113,6 +118,7 @@ ipython_config.py
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
+
 
 # Celery stuff
 celerybeat-schedule
